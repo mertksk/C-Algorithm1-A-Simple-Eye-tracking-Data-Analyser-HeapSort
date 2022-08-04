@@ -48,7 +48,7 @@ int main(){
 	printf("\n------------------\n\n");
 	/*Initial AOI upload*/
 	FILE *file;
-	file = fopen("C:\\Users\\mert_\\OneDrive\\Masaüstü\\algoritma\\testdata\\aois.txt", "r");
+	file = fopen("C:\\Users\\mert_\\OneDrive\\MasaÃ¼stÃ¼\\algoritma\\testdata\\aois.txt", "r");
 	char a[150];
 	int x=0;
 	int y=0;
@@ -74,13 +74,13 @@ int main(){
 	
 	
 	// Initial load of User Data
-	strcpy(param,"C:\\Users\\mert_\\OneDrive\\Masaüstü\\algoritma\\testdata\\data\\1.txt");
+	strcpy(param,"C:\\Users\\mert_\\OneDrive\\MasaÃ¼stÃ¼\\algoritma\\testdata\\data\\1.txt");
 	computeFixationCount(aois,size,param);
 	computeDwellTime(aois,size,param);
-	strcpy(param,"C:\\Users\\mert_\\OneDrive\\Masaüstü\\algoritma\\testdata\\data\\2.txt");
+	strcpy(param,"C:\\Users\\mert_\\OneDrive\\MasaÃ¼stÃ¼\\algoritma\\testdata\\data\\2.txt");
 	computeFixationCount(aois,size,param);
 	computeDwellTime(aois,size,param);
-	strcpy(param,"C:\\Users\\mert_\\OneDrive\\Masaüstü\\algoritma\\testdata\\data\\3.txt");
+	strcpy(param,"C:\\Users\\mert_\\OneDrive\\MasaÃ¼stÃ¼\\algoritma\\testdata\\data\\3.txt");
 	computeFixationCount(aois,size,param);
 	computeDwellTime(aois,size,param);
 	printf("FILES UPLOADED");
